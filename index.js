@@ -128,10 +128,10 @@ switch(value) {
 
 if (!("0123456789".includes(value)) && 
     !(operators.includes(value)) &&
-    value !== "Enter" && 
+    value !== "=" && 
     value !== "." && 
-    value !== "Backspace" && 
-    value !== "Escape")
+    value !== "⌫" && 
+    value !== "AC")
 {
     
     return;
